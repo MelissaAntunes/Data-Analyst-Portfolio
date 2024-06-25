@@ -6,7 +6,7 @@ Esse projeto foca em analizar dados relacionados a pandemia de covid-19 usando c
 
 • Taxa de mortalidade: Essa consulta calcula a porcengagem de mortes em relação ao número total de casos. Isso nos ajuda a entender o quão severo o vírus é em diferentes locais. 
 
-• Percentage of Population Infected: This query determines the percentage of the population that has contracted COVID-19. By comparing the total number of cases to the population size, we can evaluate the spread of the virus in various regions.
+• Porcentagem da população infectada: Essa consulta determina a porcentagem da população que contraiu covid-19.
 
 • Maior taxa de infecção: Essa consulta indentifica o país com a maior taxa de infecção proporcionalmente a sua população.
 
