@@ -4,7 +4,7 @@ Esse projeto foca em analizar dados relacionados a pandemia de covid-19 usando c
 
 ## Resumo das consultas
 
-• Taxa de mortalidade: Essa consulta calcula a porcengagem de mortes em relação ao número total de casos. Isso nos ajuda a entender o quão severo o vírus é em diferentes locais. 
+• Taxa de mortalidade: Essa consulta calcula a porcentagem de mortes em relação ao número total de casos. Isso nos ajuda a entender o quão severo o vírus é em diferentes locais. 
 
 • Porcentagem da população infectada: Essa consulta determina a porcentagem da população que contraiu covid-19.
 
