@@ -3,20 +3,21 @@
 
 <p align="center">
 <img src="https://github.com/MelissaAntunes/Data-Analyst-Portfolio/blob/main/SQL/MelMelsPizza/images/melmelspizza-banner.png" width=80% height=80%>
+	
 ### História da MelMel's Pizza
 
 No início de 2024, Melissa, uma jovem empreendedora apaixonada por culinária italiana, decidiu realizar seu sonho de abrir sua própria pizzaria. Após anos de trabalho em restaurantes renomados e uma temporada estudando gastronomia na Itália, Melissa inaugurou a MelMel's Pizza, situada nas cidades de São Paulo, Osasco e Guarulhos.
 
 <img src="https://github.com/MelissaAntunes/Data-Analyst-Portfolio/blob/main/SQL/MelMelsPizza/images/melmelspizza-menu.png" width=80% height=80%>
 
-1- total de pedidos
-2- total de vendas
-3- total de itens
-4- valor médio de pedido
-5- top pizza vendidas
-6- quantidade de pedidos por dia
-7- pedidos por cidade
-8- pedidos por delivery/pick up
+- total de pedidos
+- total de vendas
+- total de itens
+- valor médio de pedido
+- top pizza vendidas
+- quantidade de pedidos por dia
+- pedidos por cidade
+- pedidos por delivery/pick up
 
 ```sql
 -- consulta necessária para o dashboard
@@ -38,6 +39,7 @@ LEFT JOIN item
 ```
 
 <img src="https://github.com/MelissaAntunes/Data-Analyst-Portfolio/blob/main/SQL/MelMelsPizza/dashboard.png" width=80% height=80%>
+
 ### Atividade da MelMel's Pizza na Primeira Semana de Inauguração
 
 A MelMel's Pizza abriu suas portas no dia 1º de julho de 2024. Apesar da primeira semana não ter atingido as expectativas, Melissa não se deixou desanimar ou considerar desistir de suas pizzarias.
