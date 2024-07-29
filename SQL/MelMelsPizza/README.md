@@ -3,11 +3,14 @@
 
 <p align="center">
 <img src="https://github.com/MelissaAntunes/Data-Analyst-Portfolio/blob/main/SQL/MelMelsPizza/images/melmelspizza-banner.png" width=80% height=80%>
-	
+
+ <p align="center">
+
 ### História da MelMel's Pizza
 
 No início de 2024, Melissa, uma jovem empreendedora apaixonada por culinária italiana, decidiu realizar seu sonho de abrir sua própria pizzaria. Após anos de trabalho em restaurantes renomados e uma temporada estudando gastronomia na Itália, Melissa inaugurou a MelMel's Pizza, situada nas cidades de São Paulo, Osasco e Guarulhos.
 
+<p align="center">
 <img src="https://github.com/MelissaAntunes/Data-Analyst-Portfolio/blob/main/SQL/MelMelsPizza/images/melmelspizza-menu.png" width=80% height=80%>
 
 - total de pedidos
@@ -37,7 +40,7 @@ LEFT JOIN endereco
 LEFT JOIN item
 	ON item.id_item = pedidos.id_item;
 ```
-
+<p align="center">
 <img src="https://github.com/MelissaAntunes/Data-Analyst-Portfolio/blob/main/SQL/MelMelsPizza/dashboard.png" width=80% height=80%>
 
 ### Atividade da MelMel's Pizza na Primeira Semana de Inauguração
@@ -65,5 +68,6 @@ No terceiro dia, o número de pedidos teve um aumento relativamente alto em comp
 - Diminuir as opções de pizza do menu durante os primeiros meses de inauguração e adicionar mais opções de acordo com a frequência e quantidade de clientes.
 - Adicionar variações ao menu, como bebidas e sobremesas.
 - Promoções podem ajudar a atrair mais clientes.
-- 
+
+<p align="center">
 <img src="https://github.com/MelissaAntunes/Data-Analyst-Portfolio/blob/main/SQL/MelMelsPizza/images/QuickDBD-export.png" width=80% height=80%>
