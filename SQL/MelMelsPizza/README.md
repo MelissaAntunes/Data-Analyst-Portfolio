@@ -1,6 +1,43 @@
+ [![View Repositories](https://img.shields.io/badge/View-My_Repositories-blue?logo=GitHub)](https://github.com/MelissaAntunes?tab=repositories)
+[![View My Profile](https://img.shields.io/badge/View-My_Profile-green?logo=GitHub)](https://github.com/MelissaAntunes) 
+
+<p align="center">
+<img src="https://github.com/MelissaAntunes/Data-Analyst-Portfolio/blob/main/SQL/MelMelsPizza/images/melmelspizza-banner.png" width=80% height=80%>
 ### História da MelMel's Pizza
 
 No início de 2024, Melissa, uma jovem empreendedora apaixonada por culinária italiana, decidiu realizar seu sonho de abrir sua própria pizzaria. Após anos de trabalho em restaurantes renomados e uma temporada estudando gastronomia na Itália, Melissa inaugurou a MelMel's Pizza, situada nas cidades de São Paulo, Osasco e Guarulhos.
+
+<img src="https://github.com/MelissaAntunes/Data-Analyst-Portfolio/blob/main/SQL/MelMelsPizza/images/melmelspizza-menu.png" width=80% height=80%>
+
+1- total de pedidos
+2- total de vendas
+3- total de itens
+4- valor médio de pedido
+5- top pizza vendidas
+6- quantidade de pedidos por dia
+7- pedidos por cidade
+8- pedidos por delivery/pick up
+
+```sql
+-- consulta necessária para o dashboard
+SELECT
+	pedidos.id_pedido,
+    item.preco_item,
+    pedidos.quantidade,
+    item.nome_item,
+    pedidos.criado_em,
+    endereco.delivery_end1,
+    endereco.delivery_cidade,
+    endereco.delivery_codpost,
+    pedidos.delivery
+FROM pedidos
+LEFT JOIN endereco
+	ON endereco.ende_id = pedidos.ende_id
+LEFT JOIN item
+	ON item.id_item = pedidos.id_item;
+```
+
+<img src="https://github.com/MelissaAntunes/Data-Analyst-Portfolio/blob/main/SQL/MelMelsPizza/dashboard.png" width=80% height=80%>
 ### Atividade da MelMel's Pizza na Primeira Semana de Inauguração
 
 A MelMel's Pizza abriu suas portas no dia 1º de julho de 2024. Apesar da primeira semana não ter atingido as expectativas, Melissa não se deixou desanimar ou considerar desistir de suas pizzarias.
@@ -26,3 +63,5 @@ No terceiro dia, o número de pedidos teve um aumento relativamente alto em comp
 - Diminuir as opções de pizza do menu durante os primeiros meses de inauguração e adicionar mais opções de acordo com a frequência e quantidade de clientes.
 - Adicionar variações ao menu, como bebidas e sobremesas.
 - Promoções podem ajudar a atrair mais clientes.
+- 
+<img src="https://github.com/MelissaAntunes/Data-Analyst-Portfolio/blob/main/SQL/MelMelsPizza/images/QuickDBD-export.png" width=80% height=80%>
